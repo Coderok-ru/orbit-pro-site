@@ -8,6 +8,33 @@
     <description>Обновления Orbit.PRO</description>
     <language>ru</language>
     <item>
+      <title>Orbit.PRO 1.0.0</title>
+      <pubDate>Mon, 14 Sep 2026 16:53:23 +0300</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <link>https://orbit-pro.ru/</link>
+      <description><![CDATA[<h3>Orbit.PRO 1.0.0 — большое обновление</h3>
+<p><b>Новые разделы</b></p>
+<ul>
+<li><b>Ассистент</b> — чат по данным вашего Mac: процессы, диск, автозагрузка, изменения, оценка. Отвечает по фактам, ничего не выдумывает.</li>
+<li><b>Автоматизация</b> — задачи по расписанию и по событиям (мало места, простой, вход в систему, питание, обновление macOS), живой контроль CPU/памяти/диска/температуры/сети с уведомлениями и действиями, хвосты удалённых приложений, итоги недели.</li>
+<li><b>Изменения</b> — ежедневный отпечаток Mac и лента «что изменилось»: новые элементы автозагрузки, разрешения, приложения, рост папок, твики, macOS.</li>
+<li><b>Сценарии</b> — «Подготовить Mac к продаже», «Перед поездкой», «Ускорить старый Mac»: автоматические шаги с откатом и чек-лист со ссылками в настройки. Плюс «Переезд на новый Mac» — экспорт/импорт .orbitpack.</li>
+</ul>
+<p><b>Обзор и отчёты</b></p>
+<ul>
+<li>«За 30 дней» — сколько освобождено, убрано хвостов, выполнено задач, предотвращено проблем; батарея и энергия для ноутбуков («кто разряжает»).</li>
+<li>Отчёт о Mac одной кнопкой — HTML или PDF в стиле приложения.</li>
+<li>Виджет для Центра уведомлений: диск, последняя очистка, следующая задача, итоги.</li>
+</ul>
+<p><b>Диск</b> — «Похожие фото»: уменьшенные копии и повторные экспорты по содержимому, видео-дубли, учёт файлов, живущих только в iCloud.</p>
+<p><b>Ассистент и лицензия</b> — встроенный сервис без настройки; 14 дней бесплатно, затем ключ активации (общий или персональный). Окно обновления в стиле приложения, проверка раз в час, язык по устройству и мгновенное переключение, установщик DMG в стиле приложения.</p>
+<p>Требования: macOS 14+, Apple Silicon. Подписано Developer ID и нотаризовано Apple.</p>]]></description>
+      <enclosure url="https://github.com/Coderok-ru/orbit-pro-site/releases/download/v1.0.0/Orbit.PRO-1.0.0.dmg" sparkle:edSignature="nfPrgfbHVhfuzoRtFJeMQTO8aYORGHZ8QJkzl0ABCl1zRbtrAF0r5iIhXWkmp1+TFK5rRK9nSWCdQqIaDLYFCA==" length="13538498" type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>Orbit.PRO 0.1.0</title>
       <pubDate>Mon, 14 Sep 2026 15:08:24 +0300</pubDate>
       <sparkle:version>18</sparkle:version>
