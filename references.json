@@ -1,0 +1,828 @@
+{
+  "version": "2026.09.1",
+  "updated": "2026-09-11",
+  "note": "Цифры приблизительные (Geekbench 6 / Metal), обновляются ежемесячно. requirements — доля от верхнего чипа базы, при которой метрика считается достаточной для сферы.",
+  "sources": [
+    "https://browser.geekbench.com/mac-benchmarks",
+    "https://support.apple.com/specs",
+    "https://everymac.com"
+  ],
+  "current_generation": {
+    "family": "M5",
+    "released": "2025-10",
+    "tiers": [
+      "",
+      "Pro",
+      "Max"
+    ]
+  },
+  "chips": [
+    {
+      "id": "M1",
+      "family": "M1",
+      "tier": "",
+      "year": 2020,
+      "single": 2350,
+      "multi": 8300,
+      "metal": 33000,
+      "npu_tops": 11,
+      "media_engines": 1,
+      "max_ram_gb": 16
+    },
+    {
+      "id": "M1 Pro",
+      "family": "M1",
+      "tier": "Pro",
+      "year": 2021,
+      "single": 2380,
+      "multi": 12300,
+      "metal": 68000,
+      "npu_tops": 11,
+      "media_engines": 1,
+      "max_ram_gb": 32
+    },
+    {
+      "id": "M1 Max",
+      "family": "M1",
+      "tier": "Max",
+      "year": 2021,
+      "single": 2400,
+      "multi": 12500,
+      "metal": 112000,
+      "npu_tops": 11,
+      "media_engines": 2,
+      "max_ram_gb": 64
+    },
+    {
+      "id": "M1 Ultra",
+      "family": "M1",
+      "tier": "Ultra",
+      "year": 2022,
+      "single": 2400,
+      "multi": 18500,
+      "metal": 160000,
+      "npu_tops": 22,
+      "media_engines": 4,
+      "max_ram_gb": 128
+    },
+    {
+      "id": "M2",
+      "family": "M2",
+      "tier": "",
+      "year": 2022,
+      "single": 2600,
+      "multi": 9700,
+      "metal": 45000,
+      "npu_tops": 15.8,
+      "media_engines": 1,
+      "max_ram_gb": 24
+    },
+    {
+      "id": "M2 Pro",
+      "family": "M2",
+      "tier": "Pro",
+      "year": 2023,
+      "single": 2650,
+      "multi": 14200,
+      "metal": 78000,
+      "npu_tops": 15.8,
+      "media_engines": 1,
+      "max_ram_gb": 32
+    },
+    {
+      "id": "M2 Max",
+      "family": "M2",
+      "tier": "Max",
+      "year": 2023,
+      "single": 2700,
+      "multi": 14800,
+      "metal": 130000,
+      "npu_tops": 15.8,
+      "media_engines": 2,
+      "max_ram_gb": 96
+    },
+    {
+      "id": "M2 Ultra",
+      "family": "M2",
+      "tier": "Ultra",
+      "year": 2023,
+      "single": 2750,
+      "multi": 21300,
+      "metal": 220000,
+      "npu_tops": 31.6,
+      "media_engines": 4,
+      "max_ram_gb": 192
+    },
+    {
+      "id": "M3",
+      "family": "M3",
+      "tier": "",
+      "year": 2023,
+      "single": 3050,
+      "multi": 11700,
+      "metal": 47000,
+      "npu_tops": 18,
+      "media_engines": 1,
+      "max_ram_gb": 24
+    },
+    {
+      "id": "M3 Pro",
+      "family": "M3",
+      "tier": "Pro",
+      "year": 2023,
+      "single": 3100,
+      "multi": 15300,
+      "metal": 75000,
+      "npu_tops": 18,
+      "media_engines": 1,
+      "max_ram_gb": 36
+    },
+    {
+      "id": "M3 Max",
+      "family": "M3",
+      "tier": "Max",
+      "year": 2023,
+      "single": 3150,
+      "multi": 21000,
+      "metal": 155000,
+      "npu_tops": 18,
+      "media_engines": 2,
+      "max_ram_gb": 128
+    },
+    {
+      "id": "M3 Ultra",
+      "family": "M3",
+      "tier": "Ultra",
+      "year": 2025,
+      "single": 3200,
+      "multi": 27500,
+      "metal": 260000,
+      "npu_tops": 36,
+      "media_engines": 4,
+      "max_ram_gb": 512
+    },
+    {
+      "id": "M4",
+      "family": "M4",
+      "tier": "",
+      "year": 2024,
+      "single": 3700,
+      "multi": 14500,
+      "metal": 57000,
+      "npu_tops": 38,
+      "media_engines": 1,
+      "max_ram_gb": 32
+    },
+    {
+      "id": "M4 Pro",
+      "family": "M4",
+      "tier": "Pro",
+      "year": 2024,
+      "single": 3850,
+      "multi": 22500,
+      "metal": 110000,
+      "npu_tops": 38,
+      "media_engines": 1,
+      "max_ram_gb": 64
+    },
+    {
+      "id": "M4 Max",
+      "family": "M4",
+      "tier": "Max",
+      "year": 2024,
+      "single": 4000,
+      "multi": 26000,
+      "metal": 190000,
+      "npu_tops": 38,
+      "media_engines": 2,
+      "max_ram_gb": 128
+    },
+    {
+      "id": "M5",
+      "family": "M5",
+      "tier": "",
+      "year": 2025,
+      "single": 4150,
+      "multi": 17500,
+      "metal": 75000,
+      "npu_tops": 50,
+      "media_engines": 1,
+      "max_ram_gb": 32
+    },
+    {
+      "id": "M5 Pro",
+      "family": "M5",
+      "tier": "Pro",
+      "year": 2026,
+      "single": 4300,
+      "multi": 27000,
+      "metal": 140000,
+      "npu_tops": 50,
+      "media_engines": 1,
+      "max_ram_gb": 64
+    },
+    {
+      "id": "M5 Max",
+      "family": "M5",
+      "tier": "Max",
+      "year": 2026,
+      "single": 4400,
+      "multi": 32000,
+      "metal": 250000,
+      "npu_tops": 50,
+      "media_engines": 2,
+      "max_ram_gb": 128
+    },
+    {
+      "id": "Intel i5 (2018-2020)",
+      "family": "Intel",
+      "tier": "i5",
+      "year": 2019,
+      "single": 1200,
+      "multi": 4500,
+      "metal": 8000,
+      "npu_tops": 0,
+      "media_engines": 0,
+      "max_ram_gb": 32
+    },
+    {
+      "id": "Intel i7 (2018-2020)",
+      "family": "Intel",
+      "tier": "i7",
+      "year": 2019,
+      "single": 1350,
+      "multi": 6500,
+      "metal": 20000,
+      "npu_tops": 0,
+      "media_engines": 0,
+      "max_ram_gb": 64
+    },
+    {
+      "id": "Intel i9 (2019-2020)",
+      "family": "Intel",
+      "tier": "i9",
+      "year": 2019,
+      "single": 1450,
+      "multi": 8500,
+      "metal": 30000,
+      "npu_tops": 0,
+      "media_engines": 0,
+      "max_ram_gb": 64
+    },
+    {
+      "id": "Intel Xeon W (Mac Pro 2019)",
+      "family": "Intel",
+      "tier": "Xeon",
+      "year": 2019,
+      "single": 1300,
+      "multi": 12000,
+      "metal": 60000,
+      "npu_tops": 0,
+      "media_engines": 0,
+      "max_ram_gb": 1536
+    }
+  ],
+  "models": [
+    {
+      "prefix": "MacBookAir10,1",
+      "name": "MacBook Air (M1, 2020)",
+      "year": 2020,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac14,2",
+      "name": "MacBook Air 13\" (M2, 2022)",
+      "year": 2022,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac14,15",
+      "name": "MacBook Air 15\" (M2, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac15,12",
+      "name": "MacBook Air 13\" (M3, 2024)",
+      "year": 2024,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac15,13",
+      "name": "MacBook Air 15\" (M3, 2024)",
+      "year": 2024,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac16,12",
+      "name": "MacBook Air 13\" (M4, 2025)",
+      "year": 2025,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac16,13",
+      "name": "MacBook Air 15\" (M4, 2025)",
+      "year": 2025,
+      "form": "laptop"
+    },
+    {
+      "prefix": "MacBookPro17,1",
+      "name": "MacBook Pro 13\" (M1, 2020)",
+      "year": 2020,
+      "form": "laptop"
+    },
+    {
+      "prefix": "MacBookPro18,",
+      "name": "MacBook Pro 14\"/16\" (M1 Pro/Max, 2021)",
+      "year": 2021,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac14,7",
+      "name": "MacBook Pro 13\" (M2, 2022)",
+      "year": 2022,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac14,5",
+      "name": "MacBook Pro 14\" (M2 Max, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac14,9",
+      "name": "MacBook Pro 14\" (M2 Pro, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac14,6",
+      "name": "MacBook Pro 16\" (M2 Max, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac14,10",
+      "name": "MacBook Pro 16\" (M2 Pro, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac15,3",
+      "name": "MacBook Pro 14\" (M3, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac15,6",
+      "name": "MacBook Pro 14\" (M3 Pro, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac15,8",
+      "name": "MacBook Pro 14\" (M3 Max, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac15,7",
+      "name": "MacBook Pro 16\" (M3 Pro, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac15,9",
+      "name": "MacBook Pro 16\" (M3 Max, 2023)",
+      "year": 2023,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac16,1",
+      "name": "MacBook Pro 14\" (M4, 2024)",
+      "year": 2024,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac16,6",
+      "name": "MacBook Pro 14\" (M4 Pro, 2024)",
+      "year": 2024,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac16,8",
+      "name": "MacBook Pro 14\" (M4 Max, 2024)",
+      "year": 2024,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac16,7",
+      "name": "MacBook Pro 16\" (M4 Pro, 2024)",
+      "year": 2024,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac16,5",
+      "name": "MacBook Pro 16\" (M4 Max, 2024)",
+      "year": 2024,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Mac17,",
+      "name": "MacBook Pro (M5, 2025)",
+      "year": 2025,
+      "form": "laptop"
+    },
+    {
+      "prefix": "Macmini9,1",
+      "name": "Mac mini (M1, 2020)",
+      "year": 2020,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac14,3",
+      "name": "Mac mini (M2, 2023)",
+      "year": 2023,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac14,12",
+      "name": "Mac mini (M2 Pro, 2023)",
+      "year": 2023,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac16,10",
+      "name": "Mac mini (M4, 2024)",
+      "year": 2024,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac16,11",
+      "name": "Mac mini (M4 Pro, 2024)",
+      "year": 2024,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac13,1",
+      "name": "Mac Studio (M1 Max, 2022)",
+      "year": 2022,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac13,2",
+      "name": "Mac Studio (M1 Ultra, 2022)",
+      "year": 2022,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac14,13",
+      "name": "Mac Studio (M2 Max, 2023)",
+      "year": 2023,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac14,14",
+      "name": "Mac Studio (M2 Ultra, 2023)",
+      "year": 2023,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac15,14",
+      "name": "Mac Studio (M3 Ultra, 2025)",
+      "year": 2025,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac16,9",
+      "name": "Mac Studio (M4 Max, 2025)",
+      "year": 2025,
+      "form": "desktop"
+    },
+    {
+      "prefix": "iMac21,",
+      "name": "iMac 24\" (M1, 2021)",
+      "year": 2021,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac15,4",
+      "name": "iMac 24\" (M3, 2023)",
+      "year": 2023,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac15,5",
+      "name": "iMac 24\" (M3, 2023)",
+      "year": 2023,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac16,2",
+      "name": "iMac 24\" (M4, 2024)",
+      "year": 2024,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac16,3",
+      "name": "iMac 24\" (M4, 2024)",
+      "year": 2024,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Mac14,8",
+      "name": "Mac Pro (M2 Ultra, 2023)",
+      "year": 2023,
+      "form": "desktop"
+    },
+    {
+      "prefix": "MacPro7,1",
+      "name": "Mac Pro (Intel, 2019)",
+      "year": 2019,
+      "form": "desktop"
+    },
+    {
+      "prefix": "MacBookPro16,",
+      "name": "MacBook Pro 13\"/16\" (Intel, 2019-2020)",
+      "year": 2019,
+      "form": "laptop"
+    },
+    {
+      "prefix": "MacBookPro15,",
+      "name": "MacBook Pro (Intel, 2018-2019)",
+      "year": 2018,
+      "form": "laptop"
+    },
+    {
+      "prefix": "MacBookAir9,1",
+      "name": "MacBook Air (Intel, 2020)",
+      "year": 2020,
+      "form": "laptop"
+    },
+    {
+      "prefix": "iMac20,",
+      "name": "iMac 27\" (Intel, 2020)",
+      "year": 2020,
+      "form": "desktop"
+    },
+    {
+      "prefix": "Macmini8,1",
+      "name": "Mac mini (Intel, 2018)",
+      "year": 2018,
+      "form": "desktop"
+    }
+  ],
+  "areas": {
+    "web_office": {
+      "title": "Веб и офис",
+      "symbol": "safari",
+      "weights": {
+        "cpu_single": 0.4,
+        "ram": 0.3,
+        "ssd": 0.2,
+        "gpu": 0.1
+      },
+      "thresholds": {
+        "ram_min_gb": 8,
+        "ram_rec_gb": 16,
+        "gpu_cores_rec": 8,
+        "disk_free_rec_gb": 30
+      },
+      "apps": [
+        "Safari",
+        "Chrome",
+        "Microsoft Office",
+        "Zoom"
+      ],
+      "requirements": {
+        "cpu_single": 0.55,
+        "cpu_multi": 0.25,
+        "gpu": 0.12,
+        "ssd": 0.5
+      }
+    },
+    "photo": {
+      "title": "Фото",
+      "symbol": "camera",
+      "weights": {
+        "cpu_single": 0.25,
+        "cpu_multi": 0.2,
+        "ram": 0.3,
+        "gpu": 0.15,
+        "ssd": 0.1
+      },
+      "thresholds": {
+        "ram_min_gb": 16,
+        "ram_rec_gb": 32,
+        "gpu_cores_rec": 16,
+        "disk_free_rec_gb": 100
+      },
+      "apps": [
+        "Lightroom",
+        "Photoshop",
+        "Capture One",
+        "Affinity Photo"
+      ],
+      "requirements": {
+        "cpu_single": 0.65,
+        "cpu_multi": 0.4,
+        "gpu": 0.3,
+        "ssd": 0.6
+      }
+    },
+    "video_4k": {
+      "title": "Видео 4K",
+      "symbol": "film",
+      "weights": {
+        "cpu_multi": 0.25,
+        "gpu": 0.3,
+        "ram": 0.25,
+        "ssd": 0.1,
+        "media_engine": 0.1
+      },
+      "thresholds": {
+        "ram_min_gb": 16,
+        "ram_rec_gb": 32,
+        "gpu_cores_rec": 19,
+        "disk_free_rec_gb": 200
+      },
+      "apps": [
+        "Final Cut Pro",
+        "DaVinci Resolve",
+        "Premiere Pro"
+      ],
+      "requirements": {
+        "cpu_multi": 0.5,
+        "gpu": 0.5,
+        "media_engine": 1.0,
+        "ssd": 0.7
+      }
+    },
+    "3d_games": {
+      "title": "3D и игры",
+      "symbol": "cube",
+      "weights": {
+        "gpu": 0.5,
+        "cpu_multi": 0.2,
+        "ram": 0.2,
+        "ssd": 0.1
+      },
+      "thresholds": {
+        "ram_min_gb": 16,
+        "ram_rec_gb": 32,
+        "gpu_cores_rec": 30,
+        "disk_free_rec_gb": 150
+      },
+      "apps": [
+        "Blender",
+        "Cinema 4D",
+        "Unity",
+        "Unreal",
+        "Game Porting Toolkit"
+      ],
+      "requirements": {
+        "gpu": 0.6,
+        "cpu_multi": 0.5,
+        "ssd": 0.6
+      }
+    },
+    "ml_local": {
+      "title": "Локальный ИИ и ML",
+      "symbol": "brain",
+      "weights": {
+        "ram": 0.45,
+        "gpu": 0.3,
+        "npu": 0.1,
+        "cpu_multi": 0.1,
+        "ssd": 0.05
+      },
+      "thresholds": {
+        "ram_min_gb": 16,
+        "ram_rec_gb": 64,
+        "gpu_cores_rec": 32,
+        "disk_free_rec_gb": 200
+      },
+      "apps": [
+        "Ollama",
+        "LM Studio",
+        "MLX",
+        "Stable Diffusion"
+      ],
+      "requirements": {
+        "gpu": 0.6,
+        "npu": 0.6,
+        "cpu_multi": 0.5,
+        "ssd": 0.6
+      }
+    },
+    "dev": {
+      "title": "Разработка",
+      "symbol": "hammer",
+      "weights": {
+        "cpu_multi": 0.35,
+        "cpu_single": 0.2,
+        "ram": 0.3,
+        "ssd": 0.15
+      },
+      "thresholds": {
+        "ram_min_gb": 16,
+        "ram_rec_gb": 32,
+        "gpu_cores_rec": 10,
+        "disk_free_rec_gb": 100
+      },
+      "apps": [
+        "Xcode",
+        "Docker",
+        "Android Studio",
+        "VS Code",
+        "JetBrains IDE"
+      ],
+      "requirements": {
+        "cpu_multi": 0.5,
+        "cpu_single": 0.7,
+        "ssd": 0.7
+      }
+    },
+    "music": {
+      "title": "Музыка",
+      "symbol": "music.note",
+      "weights": {
+        "cpu_single": 0.4,
+        "cpu_multi": 0.2,
+        "ram": 0.25,
+        "ssd": 0.15
+      },
+      "thresholds": {
+        "ram_min_gb": 16,
+        "ram_rec_gb": 32,
+        "gpu_cores_rec": 8,
+        "disk_free_rec_gb": 100
+      },
+      "apps": [
+        "Logic Pro",
+        "Ableton Live",
+        "Pro Tools"
+      ],
+      "requirements": {
+        "cpu_single": 0.65,
+        "cpu_multi": 0.35,
+        "ssd": 0.6
+      }
+    },
+    "design": {
+      "title": "Дизайн и графика",
+      "symbol": "paintpalette",
+      "weights": {
+        "cpu_single": 0.3,
+        "ram": 0.35,
+        "gpu": 0.2,
+        "ssd": 0.15
+      },
+      "thresholds": {
+        "ram_min_gb": 8,
+        "ram_rec_gb": 32,
+        "gpu_cores_rec": 10,
+        "disk_free_rec_gb": 50
+      },
+      "apps": [
+        "Figma",
+        "Sketch",
+        "Photoshop",
+        "Illustrator",
+        "Affinity"
+      ],
+      "requirements": {
+        "cpu_single": 0.65,
+        "gpu": 0.4,
+        "ssd": 0.6
+      }
+    },
+    "streaming": {
+      "title": "Стриминг и видеозвонки",
+      "symbol": "video",
+      "weights": {
+        "cpu_multi": 0.3,
+        "media_engine": 0.3,
+        "gpu": 0.2,
+        "ram": 0.2
+      },
+      "thresholds": {
+        "ram_min_gb": 8,
+        "ram_rec_gb": 16,
+        "gpu_cores_rec": 8,
+        "disk_free_rec_gb": 20
+      },
+      "apps": [
+        "Zoom",
+        "Teams",
+        "FaceTime",
+        "OBS"
+      ],
+      "requirements": {
+        "cpu_multi": 0.4,
+        "media_engine": 0.8,
+        "gpu": 0.35
+      }
+    }
+  }
+}

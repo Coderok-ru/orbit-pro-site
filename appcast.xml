@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sparkle appcast. Публикуется как https://coderok-ru.github.io/orbit-pro-site/appcast.xml (SUFeedURL в App/Info.plist).
+     Элементы <item> генерирует Scripts/release.sh, вставляет Scripts/publish.sh. Новые — сверху. -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Orbit.PRO</title>
+    <link>https://coderok-ru.github.io/orbit-pro-site/</link>
+    <description>Обновления Orbit.PRO</description>
+    <language>ru</language>
+    <!-- <item>…</item> из dist/appcast-item.xml -->
+  </channel>
+</rss>
