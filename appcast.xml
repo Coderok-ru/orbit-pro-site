@@ -7,6 +7,15 @@
     <link>https://coderok-ru.github.io/orbit-pro-site/</link>
     <description>Обновления Orbit.PRO</description>
     <language>ru</language>
-    <!-- <item>…</item> из dist/appcast-item.xml -->
+    <item>
+      <title>Orbit.PRO 0.1.0</title>
+      <pubDate>Mon, 14 Sep 2026 15:08:24 +0300</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <link>https://coderok-ru.github.io/orbit-pro-site/</link>
+      <sparkle:releaseNotesLink>https://coderok-ru.github.io/orbit-pro-site/notes/0.1.0.html</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/Coderok-ru/orbit-pro-site/releases/download/v0.1.0/Orbit.PRO-0.1.0.dmg" sparkle:edSignature="M6RrnYPqZEXltE9y4x5I39a62ki6w6YoqU/hB79dIIQ0WQvRt6Du7/nNGkepU0G6gYfUQrNASBPzRU4RK2WMCQ==" length="12150650" type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
