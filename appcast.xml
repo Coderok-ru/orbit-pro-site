@@ -8,6 +8,32 @@
     <description>Обновления Orbit.PRO</description>
     <language>ru</language>
     <item>
+      <title>Orbit.PRO 1.1.0</title>
+      <pubDate>Mon, 14 Sep 2026 18:54:54 +0300</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <link>https://orbit-pro.ru/</link>
+      <description><![CDATA[<h3>Orbit.PRO 1.1.0 — 10 языков интерфейса</h3>
+<p><b>Языки</b></p>
+<ul>
+<li>Добавлены <b>French, Deutsch, Italiano, Español, Português (BR), 日本語, 简体中文, 한국어</b> — в приложении, агенте строки меню и виджете. Всего 10 языков вместе с русским и английским.</li>
+<li>Язык выбирается по устройству при первом запуске (первый поддерживаемый из предпочитаемых, иначе английский) и переключается в Настройках мгновенно — включая даты, единицы и динамические строки ядра.</li>
+<li>Если что-то подхватывает новый язык только после перезапуска (системные пункты меню, заголовки окон), в карточке «Язык» появляется кнопка <b>Перезапустить</b>.</li>
+<li>Ассистент отвечает на языке интерфейса; стартовые вопросы тоже переведены.</li>
+</ul>
+<p><b>Исправления</b></p>
+<ul>
+<li>Строки с подстановками в переводах с иным порядком аргументов больше не приводят к падению.</li>
+<li>Единицы и даты в интерфейсе — по языку приложения, а не системы.</li>
+<li>«Автозагрузка», «Разрешения» и прочие статусы «да/нет» — на выбранном языке.</li>
+</ul>
+<p><b>Сайт</b> — orbit-pro.ru: HTTPS, английская версия со скриншотами английского интерфейса, список поддерживаемых языков.</p>
+<p>Требования: macOS 14+, Apple Silicon. Подписано Developer ID и нотаризовано Apple.</p>]]></description>
+      <enclosure url="https://github.com/Coderok-ru/orbit-pro-site/releases/download/v1.1.0/Orbit.PRO-1.1.0.dmg" sparkle:edSignature="yN5COfGcBRvLJznefdiNHGvKvc8wmHHjWcLmG7jQK12elKV2KnBHbB0rC8FvynwnyVjqv26McSthArSTMjFWCg==" length="14458477" type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>Orbit.PRO 1.0.0</title>
       <pubDate>Mon, 14 Sep 2026 16:53:23 +0300</pubDate>
       <sparkle:version>38</sparkle:version>

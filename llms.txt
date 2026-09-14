@@ -2,7 +2,7 @@
 
 > Orbit.PRO — утилита для macOS: оценка актуальности Mac, очистка с карантином и откатом, карта диска, деинсталлятор, твики, автозагрузка, приватность, автоматизация и ассистент, который отвечает по данным вашего Mac. macOS 14+, Apple Silicon.
 
-Сайт: https://orbit-pro.ru/ (русский), https://orbit-pro.ru/en/ (English). Версия 1.0.0. Скачать: https://github.com/Coderok-ru/orbit-pro-site/releases/download/v1.0.0/Orbit.PRO-1.0.0.dmg. Homebrew: brew install --cask coderok-ru/orbit-pro/orbit-pro. Разработчик: Coderok (Андрей Любиченко), info@coderok.ru, Telegram @coderok_official.
+Сайт: https://orbit-pro.ru/ (русский), https://orbit-pro.ru/en/ (English). Языки интерфейса приложения: Русский, English, Français, Deutsch, Italiano, Español, Português (BR), 日本語, 简体中文, 한국어. Версия 1.1.0. Скачать: https://github.com/Coderok-ru/orbit-pro-site/releases/download/v1.1.0/Orbit.PRO-1.1.0.dmg. Homebrew: brew install --cask coderok-ru/orbit-pro/orbit-pro. Разработчик: Coderok (Андрей Любиченко), info@coderok.ru, Telegram @coderok_official.
 
 ## Какие задачи решает
 
@@ -51,6 +51,7 @@
 - **Как обновляться?** Приложение проверяет обновления раз в час и предлагает установить в своём окне. Или Homebrew: brew upgrade --cask orbit-pro.
 - **Можно ли вернуть удалённое?** Да: Очистка → История → Откатить, или прямо из уведомления. Карантин хранится 7 дней, срок и полная очистка настраиваются.
 - **Нужен ли Full Disk Access?** Не обязателен, но с ним доступны кэши Safari и Mail, аудит разрешений TCC и защищённые папки ~/Library. Мастер разрешений покажет, как выдать.
+- **На каких языках интерфейс?** Русский, English, Français, Deutsch, Italiano, Español, Português (BR), 日本語, 简体中文, 한국어. Язык выбирается по устройству при первом запуске и переключается в настройках мгновенно; ассистент отвечает на языке интерфейса.
 
 ## Ссылки
 
