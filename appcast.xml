@@ -8,6 +8,38 @@
     <description>Обновления Orbit.PRO</description>
     <language>ru</language>
     <item>
+      <title>Orbit.PRO 1.6.0</title>
+      <pubDate>Tue, 15 Sep 2026 20:20:51 +0300</pubDate>
+      <sparkle:version>71</sparkle:version>
+      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <link>https://orbit-pro.ru/</link>
+      <description><![CDATA[<h3>Orbit.PRO 1.6.0 — короткий сайдбар, VPN в агенте, очистка следов нейросетей, анимации</h3>
+<p><b>Навигация</b></p>
+<ul>
+<li>Сайдбар: 12 разделов → <b>6</b> с вкладками наверху: <b>Обзор</b> (Сводка · Анализ), <b>Очистка</b> (План · Разработчик · История), <b>Диск</b> (Диск · Приложения), <b>Твики</b>, <b>Защита</b> (Автозагрузка · Приватность), <b>Автоматизация</b> (Задачи · Изменения · Сценарии). ⌘1…⌘6.</li>
+<li>Все старые переходы работают: карточки обзора, сценарии, ссылки агента и уведомлений ведут в нужный раздел и вкладку.</li>
+</ul>
+<p><b>Агент в строке меню → Сеть → VPN</b></p>
+<ul>
+<li>Есть ли VPN (туннели <code>utun</code>/<code>ipsec</code>/<code>ppp</code> с адресом), идёт ли через него <b>весь</b> трафик или часть, имя подключения (как в системе), скорость по каждому туннелю и <b>кто им пользуется</b> — процессы с числом соединений. Без прав администратора.</li>
+<li>Память: спидометр давления больше не обрезается.</li>
+</ul>
+<p><b>Очистка → «Нейросети и ИИ‑инструменты»</b> (новая категория, 15 правил)</p>
+<ul>
+<li>Картинки и служебные снимки Claude Code, история правок и стенограммы старше 30 дней (память проектов и настройки защищены), образы ВМ приложения Claude, сессии Codex, tmp Gemini, хранилища проектов Cursor и VS Code старше 60 дней, кэши Hugging Face / PyTorch / Whisper, модели Ollama и LM Studio (красные — не кэш), кэш ChatGPT.</li>
+</ul>
+<p><b>Неоморфизм и движение</b></p>
+<ul>
+<li>Кнопки и вкладки при наведении <b>вдавливаются</b> и опускаются на 1 pt, при нажатии — глубже с пружиной; акцентная кнопка «садится».</li>
+<li>Активная вкладка — вдавленная, с текстом фирменного цвета; вдавленность <b>переезжает</b> по сайдбару и вкладкам.</li>
+<li>Переходы между разделами (растворение снизу вверх) и вкладками (сдвиг в сторону переключения), каскадное появление карточек, плавная смена цифр, кольца наполняются от нуля. Уважается «Уменьшить движение».</li>
+</ul>
+<p>Требования: macOS 14+, Apple Silicon. Подписано Developer ID и нотаризовано Apple.</p>]]></description>
+      <enclosure url="https://github.com/Coderok-ru/orbit-pro-site/releases/download/v1.6.0/Orbit.PRO-1.6.0.dmg" sparkle:edSignature="YGE3PeKC+ty/GWCkGnX8qAsVQ5rXuvSMCfBISlsM88Buiyy8eN+HYAha2YZDFxUGblHQCWZoQemEoSU3roh8DQ==" length="17361854" type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>Orbit.PRO 1.5.2</title>
       <pubDate>Tue, 15 Sep 2026 19:00:28 +0300</pubDate>
       <sparkle:version>61</sparkle:version>
