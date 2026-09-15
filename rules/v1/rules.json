@@ -1,0 +1,7 @@
+{
+  "files": {
+    "example.yaml": "version: \"1.0.0\"\nrules:\n  - id: community.example\n    title: Пример правила сообщества\n    title_en: Community rule example\n    category: user_caches\n    risk: green\n    owner: Заглушка (пример)\n    paths: [\"~/Library/Caches/com.example.placeholder\"]\n    explanation: \"Пример правила из репозитория правил сообщества — заглушка, безопасная для демонстрации конвейера подписи и обновления. Реальных файлов не удаляет: путь не существует на большинстве Mac.\"\n    explanation_en: \"Example rule from the community rules repository — a harmless placeholder used to demonstrate the signing and update pipeline. Matches no real files on most Macs.\"\n    action: quarantine\n    match: children\n"
+  },
+  "generated": "2026-09-15T12:34:06+00:00",
+  "version": "2026.09.15"
+}
