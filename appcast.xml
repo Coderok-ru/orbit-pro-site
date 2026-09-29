@@ -8,6 +8,28 @@
     <description>Обновления Orbit.PRO</description>
     <language>ru</language>
     <item>
+      <title>Orbit.PRO 1.6.3</title>
+      <pubDate>Tue, 29 Sep 2026 17:16:25 +0300</pubDate>
+      <sparkle:version>75</sparkle:version>
+      <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <link>https://orbit-pro.ru/</link>
+      <description><![CDATA[<h3>Orbit.PRO 1.6.3 — исправления в отчёте и настройках</h3>
+<p><b>Отчёт о Mac</b></p>
+<ul>
+<li>Бейджи («актуален», «устарел», состояние SMART) в таблицах больше <b>не рассыпаются по буквам в столбик</b>. Правило переноса, добавленное для печати длинных путей, рвало слова в любом месте, а колонка бейджа сжималась до ширины одной буквы.</li>
+<li>Из подвала сервисного документа убрано упоминание служебного раздела настроек: предупреждение о содержимом осталось, путь к переключателю — нет.</li>
+</ul>
+<p><b>Настройки</b></p>
+<ul>
+<li>Инженерное меню теперь <b>скрыто по умолчанию</b> — в настройках не видно ни карточки, ни поля пароля. Открывается семью быстрыми нажатиями на номер версии в разделе «О программе», дальше — как раньше, по паролю.</li>
+<li>Подпись «Последняя проверка» в инженерном меню собиралась в строку целиком и поэтому оставалась русской при любом языке интерфейса — исправлено.</li>
+</ul>
+<p>Требования: macOS 14+, Apple Silicon. Подписано Developer ID и нотаризовано Apple.</p>]]></description>
+      <enclosure url="https://github.com/Coderok-ru/orbit-pro-site/releases/download/v1.6.3/Orbit.PRO-1.6.3.dmg" sparkle:edSignature="VJIi8qS8XMW6VGLJYT2lktMSLmOiYellhiDbzi5+KZL3vAVT/WnKHIlo8VrFFfFoOwglgR0rbCkq5tei/ELCAg==" length="18088996" type="application/octet-stream" />
+    </item>
+
+    <item>
       <title>Orbit.PRO 1.6.2</title>
       <pubDate>Tue, 29 Sep 2026 16:54:06 +0300</pubDate>
       <sparkle:version>74</sparkle:version>
